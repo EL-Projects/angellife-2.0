@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Involve-VF", sans-serif;
+  color: #493340;
+  background-color: #ececec;
+  letter-spacing: 0.05em;
+}
+.list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+p {
+  font-family: "Involve-VF", sans-serif;
+}
+
+@font-face {
+  font-family: "Involve-VF";
+  src: url("./../fonts/Involve-VF.ttf") format("truetype");
+}
+// @font-face {
+//   font-family: "Ubuntu";
+//  src: url("./../fonts/Involve-VF.ttf") format("truetype");
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: "Involve-VF";
+  src: url("./../fonts/Involve-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Involve-VF";
+  src: url("./../fonts/Involve-SemiBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.copyright-text {
+  font-size: 6px;
+  color: #ececec;
+  text-align: center;
+}
